@@ -79,7 +79,7 @@ sudo -u "$USER_NAME" bash -c "cat > $CONFIG_FILE <<EOL
 {
   \"pop_name\": \"${POP_NAME:-null}\",
   \"pop_location\": \"${POP_LOCATION:-null}\",
-  \"invite_code\": \"$INVITE_CODE\",
+  \"invite_code\": $INVITE_CODE,
   \"server\": {
     \"host\": \"0.0.0.0\",
     \"port\": $PORT,
